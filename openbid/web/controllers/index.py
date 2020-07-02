@@ -14,9 +14,9 @@ def logout():
 @index_page.route("/getBeSectionListPaging", methods=["POST"])
 def getBeSectionListPaging():
     params = request.json
-    type = params.get("type")
+    # type = params.get("type")
+    type = 1
     if type == 1:
-        # 今日开标
         res_dat = {
             "code": 0,
             "msg": "success",
