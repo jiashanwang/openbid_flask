@@ -1,3 +1,4 @@
+# encoding= utf-8
 from flask import Blueprint, request, jsonify
 from application import db
 from common.libs.utils import return_data, cls_to_dict
