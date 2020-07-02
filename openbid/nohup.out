@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "manager_openbid.py", line 3, in <module>
+    import www
+  File "/data/flask/openbid_flask/openbid/www.py", line 3, in <module>
+    from web.controllers.index import index_page
+  File "/data/flask/openbid_flask/openbid/web/controllers/index.py", line 33
+SyntaxError: Non-ASCII character '\xe8' in file /data/flask/openbid_flask/openbid/web/controllers/index.py on line 33, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
